@@ -62,7 +62,7 @@ Look like **nathan** doesn't have any sudo permission so I use **linpeas** to en
 
 **Scp:** `scp filename user@remotehost:location`
 
-Therefore I know the user credential I just use **scp** to transfer file between **local** and **remote machine**
+Since I know the **ssh** user credential I just use **scp** to transfer file between **local** and **remote machine**
 
 ![image](https://user-images.githubusercontent.com/58801547/134896685-f356e4fa-9177-4a0c-a5dd-a6bc2f87ddb4.png)
 
