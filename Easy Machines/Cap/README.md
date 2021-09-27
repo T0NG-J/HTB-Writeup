@@ -68,7 +68,7 @@ Therefore I know the user credential I just use **scp** to transfer file between
 
 **Linpeas:**
 
-Now run the **linpeas.sh** then I got some information, it obvious this machine have capibility of **cap_setuid** function and can access through **python** then I can escalate to root with just basic python script
+Now run the **linpeas.sh** then I got some information, it obvious this machine have capability of **cap_setuid** function and can access through **python** then I can escalate to root with just basic python script
 
 ![image](https://user-images.githubusercontent.com/58801547/134897124-42c308a6-ed11-4f34-9902-580a4b1d25e8.png)
 
