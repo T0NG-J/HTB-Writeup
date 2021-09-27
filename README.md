@@ -1,5 +1,5 @@
-### Hello there 👌
-- 🐱‍👤 I’m currently learning Penetration testing, Hacking stuff
-- This is my write up of hack the box machines
+# Hello there 👌
+- 📚 I’m currently learning Penetration testing, Hacking stuff
+- 🐱‍👤 This is my write up of hack the box machines
 
-<script src="https://www.hackthebox.eu/badge/370893"></script>
+<img src="http://www.hackthebox.eu/badge/image/370893" alt="Hack The Box">
