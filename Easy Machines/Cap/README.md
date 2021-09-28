@@ -21,7 +21,7 @@ Here is some service information and web-server banner
 
 (gunicorn is a python Web Server Gateway Interface (WSGI) use for UNIX system).
 
-Somehow maybe FTP and gunicorn have the vulnerability, after googling around I didn't find any critical or High vulnerability that can lead to exploit (trying FTP with anonymous login doesn't works too).
+Somehow maybe the FTP and gunicorn have the vulnerability, after googling around I didn't find any critical or High vulnerability that can lead to exploit (trying FTP with anonymous login doesn't works too).
 
 ![image](https://user-images.githubusercontent.com/58801547/134888516-fa417f77-fe02-40b7-a93a-4395f9fc0613.png)
 
@@ -34,7 +34,7 @@ Enum directory of the target with gobuster dir mode, found interesting directory
 
 ![image](https://user-images.githubusercontent.com/58801547/134892923-ea7602b9-a1f9-45a9-9f8c-bf704b5f3f30.png)
 
-After discovery how this web-application works the data page contain logging of packet and store to pcap file order with and index it seem to have **broken access control** here, then I try to change index of data page by increase, decrease it and found this 0.pcap file as image below.
+After discovery how this web-application works the data page contain logging of packet and store to pcap file in order and index it seem to have **broken access control** here, then I try to change index of data page by increase, decrease it and found this 0.pcap file as image below.
 
 ![image](https://user-images.githubusercontent.com/58801547/134893920-02c85de2-5fb5-4427-9475-193e9df7e1f1.png)
 ![image](https://user-images.githubusercontent.com/58801547/134894615-948e098f-a168-4528-8685-5820cadd1c1d.png)
