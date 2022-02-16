@@ -29,10 +29,16 @@ Same as always run `nmap` first
 ![web1](https://user-images.githubusercontent.com/58801547/154247049-9362cf47-1ad8-4a44-bdd7-5d6ec498b9ef.png)
 > Look Like This web have SSRF vulnerability, so I try to inject with 127.0.0.1, localhost or admin.forge.htb but it's all get filterd
 
-![image](https://user-images.githubusercontent.com/58801547/154247634-086c0d01-ae5c-464d-8f17-9e34f564caa9.png)
+![found_vul](https://user-images.githubusercontent.com/58801547/154247634-086c0d01-ae5c-464d-8f17-9e34f564caa9.png)
 > I bypass the filtered with Uppercase character and It just work
 
-![image](https://user-images.githubusercontent.com/58801547/154247936-5979f665-42cd-4a21-ac20-9c85a97c36e5.png)
+![meme](https://c.tenor.com/rkI1a8s2Z6QAAAAC/todd-howard-it-just-works.gif)
+
+Now I got the `admin.forge.htb` page and It have another interesting routes 
+![admin](https://user-images.githubusercontent.com/58801547/154248479-23093ee3-b85d-47c9-8826-101c4d37869a.png)
+
+The annoucements page give the information of how to upload file with `ftp` throught `http` protocol, so I can construct the payload to retrieve some essential file like `.ssh/id_rsa` the ssh private key
+![image](https://user-images.githubusercontent.com/58801547/154248708-a05f643b-b70f-4b04-917e-8cbe650dc9a1.png)
 
 
 ## Exploitation
