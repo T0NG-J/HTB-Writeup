@@ -1,4 +1,5 @@
-php```3cat@kali:~/Desktop/HTB/Timing$ cat timingboi.php
+```php
+3cat@kali:~/Desktop/HTB/Timing$ cat timingboi.php
 <?php
 while(true){
 $file_hash = uniqid();
@@ -11,5 +12,5 @@ echo $payload;
 echo "\n";
 sleep(1);
 }
-
-?>```
+?>
+```
