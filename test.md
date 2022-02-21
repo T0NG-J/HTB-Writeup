@@ -1,4 +1,4 @@
-```php
+```
 3cat@kali:~/Desktop/HTB/Timing$ cat timingboi.php
 <?php
 while(true){
