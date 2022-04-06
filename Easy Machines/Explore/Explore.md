@@ -1,6 +1,6 @@
 # HTB - Explore
 
-![cover](https://user-images.githubusercontent.com/58801547/141645088-c978f3d9-c220-4def-b855-46cd511358ba.png)
+![Explore](https://user-images.githubusercontent.com/58801547/161933589-41fe1c5c-d0c5-4cd4-9778-1b505642734f.png)
 
 ## Android - Easy
 IP = 10.10.10.247
