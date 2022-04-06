@@ -1,6 +1,6 @@
 # HTB - Forge
 
-![cover](https://user-images.githubusercontent.com/58801547/154256461-3054c5c5-f852-49c3-be21-42c117617fb8.png)
+![Forge](https://user-images.githubusercontent.com/58801547/161932925-f1bd7074-7775-4b5e-892e-365160ba6886.png)
 
 ## Linux - Medium
 
