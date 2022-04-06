@@ -1,6 +1,6 @@
 # HTB - Cap 
 
-![image](https://user-images.githubusercontent.com/58801547/134887620-ed65802e-3ee9-481a-acb2-c715b0ddb244.png)
+![Cap](https://user-images.githubusercontent.com/58801547/161933091-35dc4b85-dadf-485a-981c-6e12180f649a.png)
 
 ## Linux - Easy
 IP = 10.10.10.245
