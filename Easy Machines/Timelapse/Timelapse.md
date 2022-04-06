@@ -6,7 +6,6 @@
 
 ## Table of Contents
 - [HTB - Timelapse](#htb---timelapse)
-  * [Windows - Easy](#windows---easy)
   * [Enumeration](#enumeration)
     + [Nmap](#nmap)
     + [Crackmapexec (cme)](#crackmapexec--cme-)
